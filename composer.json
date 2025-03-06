@@ -1,5 +1,5 @@
 {
-    "name": "blpraveen/laravel-mongodb-permission-spatie",
+    "name": "arjundexbytes/laravel-mongodb-permission-spatie",
     "description": "Permission handling for Laravel using Mongodb (Moloquent) based on Spatie package",
     "keywords": [
         "spatie",
@@ -11,20 +11,20 @@
         "rbac",
         "security"
     ],
-    "homepage": "https://github.com/blpraveen/laravel-mongodb-permission-saptie",
+    "homepage": "https://github.com/arjundexbytes/laravel-mongodb-permission-saptie",
     "license": "MIT",
     "authors": [
         {
-            "name": "B L Praveen",
-            "email": "blpraveen2004@gmail.com",
-            "homepage": "https://github.com/blpraveen",
+            "name": "Arjun Choudhary",
+            "email": "arjun.choudhary@dexbytes.com",
+            "homepage": "https://github.com/arjundexbytes",
             "role": "Developer"
         }
     ],
     "require": {
-	"illuminate/container": "^8.0",
-        "spatie/laravel-permission": "^4.2",
-        "blpraveen/moloquent": "^0.3.0"
+        "illuminate/container": "^8.0",
+        "spatie/laravel-permission": "^6.16",
+        "blpraveen/moloquent": "^0.3.4"
     },
     "autoload": {
         "psr-4": {
