@@ -1,11 +1,10 @@
 {
     "name": "arjundexbytes/laravel-mongodb-permission-spatie",
-    "description": "Permission handling for Laravel using Mongodb (Moloquent) based on Spatie package",
+    "description": "Permission handling for Laravel using MongoDB based on Spatie package",
     "keywords": [
         "spatie",
         "laravel",
         "mongodb",
-        "moloquent",
         "permission",
         "acl",
         "rbac",
@@ -22,9 +21,10 @@
         }
     ],
     "require": {
-        "illuminate/container": "^8.0",
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
         "spatie/laravel-permission": "^6.16",
-        "blpraveen/moloquent": "^0.3.4"
+        "mongodb/laravel-mongodb": "^4.4"  
     },
     "autoload": {
         "psr-4": {
